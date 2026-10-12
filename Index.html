@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Style</title>
+    <style>
+        #heading{
+            background-color: rgb(159, 159, 203);
+            border-radius: 10px;
+        }
+        #head{
+            text-align: center;
+            font-weight: bold;
+        }
+        #date{
+            text-align: center;
+        }
+        #event{
+            text-align: center;
+        }
+        #Details{
+            text-align: center;
+        }
+        #body1,#body2{
+            background-color: darkkhaki;
+            border-radius: 10px;
+            flex: 1;
+            
+        }
+        #register{
+            height: 20px;
+            width: 80px;
+            display: block;
+            margin: 0 auto;
+        }
+        #main{
+            display: flex;
+            gap: 10px;
+        }
+        @media (max-width: 600px) {
+    #main {
+        flex-direction: column;
+    }
+}
+    </style>
+</head>
+<body>
+    <Div id="heading">
+    <h1 id="head">STC | Pollachi</h1>
+    <h2 id="head">Tarang</h2  >
+        <h3 id="date">Inter College Event 8/10/26</h3>
+    </Div>
+    <div id="main">
+        <div id="body1">
+        <h1 id="event">Event Details</h1>
+        <h3 id="Details">Singing</h3>
+        <h3 id="Details">Dancing</h3>
+        <h3 id="Details">Quiz</h3>
+    </div>
+    <div id="body2">
+        <h1 id="event">Registration</h1>
+        <h3 id="Details">123</h3>
+        <h3 id="Details">hii</h3>
+        <button id="register">Register</button>
+    </div>
+    </div>
+</body>
+</html>
